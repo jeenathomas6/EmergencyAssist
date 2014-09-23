@@ -23,7 +23,7 @@ public class EmergencyAssistApplication extends Application
 		super.onCreate();
 
 		// Parse initialization
-		Parse.initialize(this, "wVIpMkCJDajqDpOlaS6RbhLbA3EDKjxZmy8AvMzB", "QaAAypfUafiBXIaFY5T496YJxTlafZIfRCJYBoxH");
+		
 
 
 		ParseUser.enableAutomaticUser();
