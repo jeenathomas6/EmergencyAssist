@@ -69,8 +69,7 @@ public class ParseRestActivity extends Activity {
     		
     		HttpsURLConnection  conn = (HttpsURLConnection)url.openConnection();
     		conn.setRequestMethod("GET");
-    		conn.setRequestProperty("X-Parse-Application-Id", "wVIpMkCJDajqDpOlaS6RbhLbA3EDKjxZmy8AvMzB");
-    		conn.setRequestProperty("X-Parse-REST-API-Key", "jajMDu2cch7ILGWDR22tm0By9g1pIMLfAyqESUqK");
+    		//set application ID and rest key
     		
     		String encoding = conn.getHeaderField("Content-Encoding");
     		boolean gzipped = encoding!=null && encoding.toLowerCase().contains("gzip");
